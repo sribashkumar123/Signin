@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Score Board-->
+                <div class="score_board">
+                    <div class="text_area">
+                            Rock</br>
+                            paper</br>
+                            Scissor
+                    </div>
+                    <div class="score_area">
+                            <div class="score_area_board">
+                                <p>computer<br>Score</p>
+                                <span id="score_computer"> 0</span>
+
+                            </div>
+                            <div class="score_area_board">
+                                <p>Your<br />
+                                    Score
+                                  </p>
+                                  <span id="score_user">0</span>
+                            </div>
+                    </div>
+
+                </div>
+
+        <!----------------------------------- Game Section ---------------------------------------->
+                <div class="play-board">
+
+                    <div class="lines">
+                            <div class="line-1 line"></div>
+                            <div class="line-3 line"></div>
+                            <div class="line-2 line"></div>
+                    </div>
+
+                    <div class="actions">
+                        <div class="rock-div action" id="rock" >
+                          <img src="./images/rock.png" alt="rock" width="65px" />
+                        </div>
+              
+                        <div class="paper-div action" id="paper" >
+                          <img src="./images/paper.png" alt="paper" width="65px" />
+                        </div>
+                        <div class="scissor-div action" id="scissor">
+                          <img src="./images/scissor.png" alt="scissor" width="50px" />
+                        </div>
+                      </div>
+              
+                </div>
+
+
+                
+ <!-- -------------------------------- BUTTONS ------------------------------------------------------------- -->
+     
+      <div class="buttons">
+        <button class="rules-btn btn">rules</button>
+        <button class="next-btn btn" id="next-btn">next</button>
+      </div>
+
+    </div>
+</body>
+</html>

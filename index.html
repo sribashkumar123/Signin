@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+
+        <!-- ----------------------------Score card--------------------------------------------------------   -->
+        <div class="score_card">
+
+            <div class="text_box">
+                Rock <br />Paper<br />
+                Scissors
+              </div>
+      
+              <div class="score comuter_score">
+                <p>Computer <br />Score</p>
+                <span id="computer-score">0</span>
+              </div>
+      
+              <div class="score you_score">
+                <p>
+                  Your<br />
+                  Score
+                </p>
+                <span id="user-score">0</span>
+              </div>
+      
+
+        </div>
+      <!-- ----------------------------play section--------------------------------------------------------   -->
+
+      <div id="play-board">
+
+        <div class="lines">
+          <div class="line-1 line"></div>
+          <div class="line-3 line"></div>
+          <div class="line-2 line"></div>
+        </div>
+
+        <div class="actions">
+          <div class="rock-div action" id="rock" onclick="startGame('rock')">
+            <img src="./images/rock.png" alt="rock" width="65px" />
+          </div>
+
+          <div class="paper-div action" id="paper" onclick="startGame('paper')">
+            <img src="./images/paper.png" alt="paper" width="65px" />
+          </div>
+          <div class="scissor-div action"
+            id="scissor"
+            onclick="startGame('scissor')"
+          >
+            <img src="./images/scissor.png" alt="scissor" width="50px" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+</body>
+</html>
